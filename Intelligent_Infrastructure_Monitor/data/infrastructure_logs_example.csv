@@ -1,0 +1,13 @@
+timestamp,host,service,level,message,cpu_usage,memory_usage,disk_usage,network_in_mbps,network_out_mbps,error_count,response_time_ms,is_anomaly,failure_within_24h
+2026-10-30 00:00:44.819495916+00:00,cache-01,redis,INFO,Request processed successfully,46.47,39.28,64.78,34.0,5.82,1,192.55,0,0
+2026-10-30 00:01:32.228977968+00:00,cache-01,redis,INFO,Request processed successfully,46.08,76.61,51.63,53.0,34.96,0,156.97,0,0
+2026-10-30 00:01:46.536601026+00:00,db-01,postgres,INFO,Request processed successfully,37.52,47.21,62.41,63.77,66.53,0,218.22,0,0
+2026-10-30 00:02:23.485143102+00:00,web-01,nginx,INFO,Request processed successfully,40.57,43.11,44.51,44.43,23.82,0,129.2,0,0
+2026-10-30 00:03:19.477951494+00:00,web-02,nginx,INFO,Request processed successfully,22.59,48.31,51.41,74.43,48.82,2,305.28,0,0
+2026-10-30 00:20:04.095257988+00:00,cache-01,redis,ERROR,Out of memory warning; worker process restarted,26.52,98.43,52.14,17.39,26.91,16,121.94,1,0
+2026-10-30 00:33:26.863114758+00:00,db-01,postgres,WARN,Repeated resource pressure detected; maintenance threshold approaching,88.83,80.88,84.11,34.06,37.53,4,894.29,0,1
+2026-10-30 01:10:30.464528729+00:00,api-01,payments-api,ERROR,Out of memory warning; worker process restarted,34.35,95.49,56.85,40.82,41.72,10,126.75,1,0
+2026-10-30 01:13:22.985694468+00:00,cache-01,redis,WARN,Repeated resource pressure detected; maintenance threshold approaching,90.3,82.25,90.87,25.13,6.48,8,896.53,0,1
+2026-10-30 01:26:52.582724814+00:00,db-01,postgres,ERROR,Service request failed; dependency unavailable,82.46,85.77,92.4,50.4,52.64,21,3001.85,1,1
+2026-10-30 01:52:28.565162142+00:00,cache-01,redis,ERROR,Out of memory warning; worker process restarted,35.99,94.52,50.03,62.36,28.89,5,161.5,1,0
+2026-10-30 01:55:16.258107030+00:00,web-02,nginx,WARN,Repeated resource pressure detected; maintenance threshold approaching,88.53,89.24,93.72,34.44,16.67,8,679.96,0,1

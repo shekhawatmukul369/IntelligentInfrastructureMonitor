@@ -1,0 +1,251 @@
+{
+  "input_rows": 1600,
+  "anomalies_detected": 194,
+  "normal_rows": 1406,
+  "severity_counts": {
+    "High": 112,
+    "Critical": 70,
+    "Medium": 12
+  },
+  "maintenance_alerts": 72,
+  "maintenance_risk_counts": {
+    "Low": 1528,
+    "High": 72
+  },
+  "maintenance_model": {
+    "status": "trained",
+    "target": "failure_within_24h",
+    "labelled_rows": 1600,
+    "positive_rows": 72,
+    "negative_rows": 1528,
+    "selected_config": {
+      "n_estimators": 150,
+      "max_depth": null,
+      "threshold": 0.2
+    },
+    "validation_metrics": {
+      "accuracy": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "roc_auc": 1.0
+    },
+    "holdout_metrics": {
+      "accuracy": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "roc_auc": 1.0
+    },
+    "candidate_results": [
+      {
+        "n_estimators": 150,
+        "max_depth": null,
+        "threshold": 0.2,
+        "accuracy": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "roc_auc": 1.0
+      },
+      {
+        "n_estimators": 150,
+        "max_depth": null,
+        "threshold": 0.3,
+        "accuracy": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "roc_auc": 1.0
+      },
+      {
+        "n_estimators": 150,
+        "max_depth": null,
+        "threshold": 0.4,
+        "accuracy": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "roc_auc": 1.0
+      },
+      {
+        "n_estimators": 150,
+        "max_depth": null,
+        "threshold": 0.5,
+        "accuracy": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "roc_auc": 1.0
+      },
+      {
+        "n_estimators": 150,
+        "max_depth": null,
+        "threshold": 0.6,
+        "accuracy": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "roc_auc": 1.0
+      },
+      {
+        "n_estimators": 150,
+        "max_depth": 10,
+        "threshold": 0.2,
+        "accuracy": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "roc_auc": 1.0
+      },
+      {
+        "n_estimators": 150,
+        "max_depth": 10,
+        "threshold": 0.3,
+        "accuracy": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "roc_auc": 1.0
+      },
+      {
+        "n_estimators": 150,
+        "max_depth": 10,
+        "threshold": 0.4,
+        "accuracy": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "roc_auc": 1.0
+      },
+      {
+        "n_estimators": 150,
+        "max_depth": 10,
+        "threshold": 0.5,
+        "accuracy": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "roc_auc": 1.0
+      },
+      {
+        "n_estimators": 150,
+        "max_depth": 10,
+        "threshold": 0.6,
+        "accuracy": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "roc_auc": 1.0
+      },
+      {
+        "n_estimators": 250,
+        "max_depth": null,
+        "threshold": 0.2,
+        "accuracy": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "roc_auc": 1.0
+      },
+      {
+        "n_estimators": 250,
+        "max_depth": null,
+        "threshold": 0.3,
+        "accuracy": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "roc_auc": 1.0
+      },
+      {
+        "n_estimators": 250,
+        "max_depth": null,
+        "threshold": 0.4,
+        "accuracy": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "roc_auc": 1.0
+      },
+      {
+        "n_estimators": 250,
+        "max_depth": null,
+        "threshold": 0.5,
+        "accuracy": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "roc_auc": 1.0
+      },
+      {
+        "n_estimators": 250,
+        "max_depth": null,
+        "threshold": 0.6,
+        "accuracy": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "roc_auc": 1.0
+      },
+      {
+        "n_estimators": 250,
+        "max_depth": 10,
+        "threshold": 0.2,
+        "accuracy": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "roc_auc": 1.0
+      },
+      {
+        "n_estimators": 250,
+        "max_depth": 10,
+        "threshold": 0.3,
+        "accuracy": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "roc_auc": 1.0
+      },
+      {
+        "n_estimators": 250,
+        "max_depth": 10,
+        "threshold": 0.4,
+        "accuracy": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "roc_auc": 1.0
+      },
+      {
+        "n_estimators": 250,
+        "max_depth": 10,
+        "threshold": 0.5,
+        "accuracy": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "roc_auc": 1.0
+      },
+      {
+        "n_estimators": 250,
+        "max_depth": 10,
+        "threshold": 0.6,
+        "accuracy": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "roc_auc": 1.0
+      }
+    ]
+  },
+  "model_config": {
+    "contamination": 0.05,
+    "n_estimators": 150,
+    "max_samples": "auto"
+  },
+  "model_training_mode": "unsupervised_on_normal_rows_with_labelled_validation",
+  "output_csv": "reports/anomaly_results.csv",
+  "explanations": []
+}

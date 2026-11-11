@@ -1,0 +1,2 @@
+[console_scripts]
+iim = intelligent_infrastructure_monitor.cli:main
